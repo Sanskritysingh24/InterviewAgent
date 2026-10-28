@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Auth from './pages/auth'
@@ -12,6 +12,7 @@ import InterviewReport from './pages/InterviewReport'
 import Dashboard from './pages/Dashboard'
 import Leaderboard from './pages/Leaderboard'
 import Profile from './pages/Profile'
+import CheatSheets from './pages/CheatSheets'
 
 export const ServerUrl  = "http://localhost:8000"
 
@@ -38,6 +39,7 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/auth' element={<Auth/>}/>
       <Route path='/interview' element={<InterviewPage/>}/>
+      <Route path='/cheatsheets' element={<CheatSheets/>}/>
       <Route path='/history' element={<InterviewHistory/>}/>
       <Route path='/dashboard' element={<Dashboard/>}/>
       <Route path='/leaderboard' element={<Leaderboard/>}/>
@@ -51,3 +53,4 @@ function App() {
 }
 
 export default App
+

@@ -1,0 +1,4507 @@
+[
+  {
+    "id": "2026-27-sample-interview-questions-1",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "Introduce yourself."
+  },
+  {
+    "id": "2026-27-sample-interview-questions-2",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "What are your strengths?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-3",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "What are your weaknesses?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-4",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "Where do you see yourself 3/5 yr down the line?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-5",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "Why do you want to join our company?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-6",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "Why should we hire you?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-7",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "Are you ready to relocate?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-8",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "Are you ready to work on shifts?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-9",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "How many hours a day do you work?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-10",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "Do you have any questions?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-11",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Attitude",
+    "question": "Tell me about a project you have worked on. What was your role in it?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-12",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "What was the most challenging problem you faced during your project, and how did you solve it?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-13",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "How do you handle pressure or tight deadlines?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-14",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Attitude",
+    "question": "Describe a situation where you worked as part of a team. What was your contribution?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-15",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "How do you handle disagreements or conflicts with your team members?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-16",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Attitude",
+    "question": "Tell me about a mistake or failure you have experienced and what you learned from it."
+  },
+  {
+    "id": "2026-27-sample-interview-questions-17",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "How do you prioritize your tasks when you have multiple assignments to complete?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-18",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "How do you keep yourself updated with new technologies and industry trends?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-19",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "What would you do if you were given a task that you had never done before?"
+  },
+  {
+    "id": "2026-27-sample-interview-questions-20",
+    "topic": "2026-27_Sample_Interview_Questions",
+    "mode": "HR",
+    "difficulty": "fresher",
+    "category": "Attitude",
+    "question": "Describe a situation where you took initiative without being asked to do so."
+  },
+  {
+    "id": "artificial-intelligence-1",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Artificial Intelligence?"
+  },
+  {
+    "id": "artificial-intelligence-2",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How is AI different from traditional programming?"
+  },
+  {
+    "id": "artificial-intelligence-3",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the relationship between AI, ML and Deep Learning?"
+  },
+  {
+    "id": "artificial-intelligence-4",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Can an AI system exist without Machine Learning?"
+  },
+  {
+    "id": "artificial-intelligence-5",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the Turing Test?"
+  },
+  {
+    "id": "artificial-intelligence-6",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are Narrow AI, General AI and Super AI?"
+  },
+  {
+    "id": "artificial-intelligence-7",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an intelligent agent?"
+  },
+  {
+    "id": "artificial-intelligence-8",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a rational agent?"
+  },
+  {
+    "id": "artificial-intelligence-9",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Does a rational agent always make the correct decision?"
+  },
+  {
+    "id": "artificial-intelligence-10",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is PEAS in AI?"
+  },
+  {
+    "id": "artificial-intelligence-11",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between a simple reflex and a model- based agent?"
+  },
+  {
+    "id": "artificial-intelligence-12",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a goal-based agent?"
+  },
+  {
+    "id": "artificial-intelligence-13",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a utility-based agent?"
+  },
+  {
+    "id": "artificial-intelligence-14",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a learning agent?"
+  },
+  {
+    "id": "artificial-intelligence-15",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between fully and partially observable environments?"
+  },
+  {
+    "id": "artificial-intelligence-16",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a deterministic versus stochastic environment?"
+  },
+  {
+    "id": "artificial-intelligence-17",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a static versus dynamic environment?"
+  },
+  {
+    "id": "artificial-intelligence-18",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a single-agent A single-agent environment has one Sudoku is primarily single- Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/DSA/COMP/2026- 27/Training/VII/1 Date: 08/09/2026 versus multi-agent environment?"
+  },
+  {
+    "id": "artificial-intelligence-19",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is problem formulation in AI?"
+  },
+  {
+    "id": "artificial-intelligence-20",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a state space?"
+  },
+  {
+    "id": "artificial-intelligence-21",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is uninformed search?"
+  },
+  {
+    "id": "artificial-intelligence-22",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is informed search?"
+  },
+  {
+    "id": "artificial-intelligence-23",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "When would you prefer Uniform Cost Search over BFS?"
+  },
+  {
+    "id": "artificial-intelligence-24",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a heuristic function?"
+  },
+  {
+    "id": "artificial-intelligence-25",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is A* search?"
+  },
+  {
+    "id": "artificial-intelligence-26",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "What makes a heuristic admissible?"
+  },
+  {
+    "id": "artificial-intelligence-27",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why can Greedy Best-First Search produce a poor solution?"
+  },
+  {
+    "id": "artificial-intelligence-28",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Hill Climbing?"
+  },
+  {
+    "id": "artificial-intelligence-29",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are local maxima, plateaus and ridges?"
+  },
+  {
+    "id": "artificial-intelligence-30",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How does Simulated Annealing overcome local optima?"
+  },
+  {
+    "id": "artificial-intelligence-31",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Iterative Deepening Search?"
+  },
+  {
+    "id": "artificial-intelligence-32",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is backtracking search?"
+  },
+  {
+    "id": "artificial-intelligence-33",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a Constraint Satisfaction Problem?"
+  },
+  {
+    "id": "artificial-intelligence-34",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why is pruning useful in AI search?"
+  },
+  {
+    "id": "artificial-intelligence-35",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is adversarial search?"
+  },
+  {
+    "id": "artificial-intelligence-36",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Alpha-Beta pruning?"
+  },
+  {
+    "id": "artificial-intelligence-37",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between global and local search?"
+  },
+  {
+    "id": "artificial-intelligence-38",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the exploration- exploitation trade- off?"
+  },
+  {
+    "id": "artificial-intelligence-39",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is knowledge representation?"
+  },
+  {
+    "id": "artificial-intelligence-40",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is symbolic AI?"
+  },
+  {
+    "id": "artificial-intelligence-41",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between symbolic and connectionist AI?"
+  },
+  {
+    "id": "artificial-intelligence-42",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is propositional logic?"
+  },
+  {
+    "id": "artificial-intelligence-43",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why is predicate logic more expressive than propositional logic?"
+  },
+  {
+    "id": "artificial-intelligence-44",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is inference in AI?"
+  },
+  {
+    "id": "artificial-intelligence-45",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is forward chaining?"
+  },
+  {
+    "id": "artificial-intelligence-46",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is backward chaining?"
+  },
+  {
+    "id": "artificial-intelligence-47",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a rule-based expert system?"
+  },
+  {
+    "id": "artificial-intelligence-48",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is fuzzy logic?"
+  },
+  {
+    "id": "artificial-intelligence-49",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How is fuzzy logic different from Boolean logic uses discrete true/false values, whereas fuzzy logic represents “Temperature is high” may be represented with a Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/DSA/COMP/2026- 27/Training/VII/1 Date: 08/09/2026 Boolean logic?"
+  },
+  {
+    "id": "artificial-intelligence-50",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "When would you use probabilistic reasoning instead of deterministic reasoning?"
+  },
+  {
+    "id": "artificial-intelligence-51",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a Bayesian Network?"
+  },
+  {
+    "id": "artificial-intelligence-52",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why is uncertainty important in AI?"
+  },
+  {
+    "id": "artificial-intelligence-53",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Machine Learning?"
+  },
+  {
+    "id": "artificial-intelligence-54",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is supervised learning?"
+  },
+  {
+    "id": "artificial-intelligence-55",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is unsupervised learning?"
+  },
+  {
+    "id": "artificial-intelligence-56",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is reinforcement learning?"
+  },
+  {
+    "id": "artificial-intelligence-57",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is semi-supervised learning?"
+  },
+  {
+    "id": "artificial-intelligence-58",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between classification and regression?"
+  },
+  {
+    "id": "artificial-intelligence-59",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is clustering?"
+  },
+  {
+    "id": "artificial-intelligence-60",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is overfitting?"
+  },
+  {
+    "id": "artificial-intelligence-61",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is underfitting?"
+  },
+  {
+    "id": "artificial-intelligence-62",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why do we use training, validation and test datasets?"
+  },
+  {
+    "id": "artificial-intelligence-63",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is data leakage?"
+  },
+  {
+    "id": "artificial-intelligence-64",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is cross-validation?"
+  },
+  {
+    "id": "artificial-intelligence-65",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is feature engineering?"
+  },
+  {
+    "id": "artificial-intelligence-66",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why is feature scaling needed?"
+  },
+  {
+    "id": "artificial-intelligence-67",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is normalization versus standardization?"
+  },
+  {
+    "id": "artificial-intelligence-68",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is regularization?"
+  },
+  {
+    "id": "artificial-intelligence-69",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between L1 and L2 regularization?"
+  },
+  {
+    "id": "artificial-intelligence-70",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a confusion matrix?"
+  },
+  {
+    "id": "artificial-intelligence-71",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "When is accuracy a poor metric?"
+  },
+  {
+    "id": "artificial-intelligence-72",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is precision?"
+  },
+  {
+    "id": "artificial-intelligence-73",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is recall?"
+  },
+  {
+    "id": "artificial-intelligence-74",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is F1-score?"
+  },
+  {
+    "id": "artificial-intelligence-75",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you handle an imbalanced dataset?"
+  },
+  {
+    "id": "artificial-intelligence-76",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a Decision Tree?"
+  },
+  {
+    "id": "artificial-intelligence-77",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why can a Decision Tree A tree can become excessively deep A tree with a separate branch Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/DSA/COMP/2026- 27/Training/VII/1 Date: 08/09/2026 overfit?"
+  },
+  {
+    "id": "artificial-intelligence-78",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Random Forest?"
+  },
+  {
+    "id": "artificial-intelligence-79",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is boosting?"
+  },
+  {
+    "id": "artificial-intelligence-80",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is K-Nearest Neighbors?"
+  },
+  {
+    "id": "artificial-intelligence-81",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the basic idea of SVM?"
+  },
+  {
+    "id": "artificial-intelligence-82",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Naïve Bayes?"
+  },
+  {
+    "id": "artificial-intelligence-83",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an artificial neuron?"
+  },
+  {
+    "id": "artificial-intelligence-84",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why are activation functions required?"
+  },
+  {
+    "id": "artificial-intelligence-85",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an epoch?"
+  },
+  {
+    "id": "artificial-intelligence-86",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is batch size?"
+  },
+  {
+    "id": "artificial-intelligence-87",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is learning rate?"
+  },
+  {
+    "id": "artificial-intelligence-88",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is gradient descent?"
+  },
+  {
+    "id": "artificial-intelligence-89",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is backpropagation?"
+  },
+  {
+    "id": "artificial-intelligence-90",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the vanishing- gradient problem?"
+  },
+  {
+    "id": "artificial-intelligence-91",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a CNN and why is it useful for images?"
+  },
+  {
+    "id": "artificial-intelligence-92",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is pooling in CNNs?"
+  },
+  {
+    "id": "artificial-intelligence-93",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an RNN?"
+  },
+  {
+    "id": "artificial-intelligence-94",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "senior",
+    "category": "Concepts",
+    "question": "Why were LSTM and GRU architectures introduced?"
+  },
+  {
+    "id": "artificial-intelligence-95",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is transfer learning?"
+  },
+  {
+    "id": "artificial-intelligence-96",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why is transfer learning useful for fresh AI projects?"
+  },
+  {
+    "id": "artificial-intelligence-97",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between training from scratch and fine-tuning?"
+  },
+  {
+    "id": "artificial-intelligence-98",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Natural Language Processing?"
+  },
+  {
+    "id": "artificial-intelligence-99",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is tokenization?"
+  },
+  {
+    "id": "artificial-intelligence-100",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between stemming and lemmatization?"
+  },
+  {
+    "id": "artificial-intelligence-101",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are word embeddings?"
+  },
+  {
+    "id": "artificial-intelligence-102",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the limitation of traditional static word embeddings?"
+  },
+  {
+    "id": "artificial-intelligence-103",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is attention in deep learning?"
+  },
+  {
+    "id": "artificial-intelligence-104",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a Transformer?"
+  },
+  {
+    "id": "artificial-intelligence-105",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why are Transformers important compared with traditional RNNs?"
+  },
+  {
+    "id": "artificial-intelligence-106",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is self-attention?"
+  },
+  {
+    "id": "artificial-intelligence-107",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are Query, Key and Value in attention?"
+  },
+  {
+    "id": "artificial-intelligence-108",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an LLM?"
+  },
+  {
+    "id": "artificial-intelligence-109",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How does an LLM generate text?"
+  },
+  {
+    "id": "artificial-intelligence-110",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Generative AI?"
+  },
+  {
+    "id": "artificial-intelligence-111",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is hallucination in an LLM?"
+  },
+  {
+    "id": "artificial-intelligence-112",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why do LLMs hallucinate?"
+  },
+  {
+    "id": "artificial-intelligence-113",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is prompt engineering?"
+  },
+  {
+    "id": "artificial-intelligence-114",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is zero-shot prompting?"
+  },
+  {
+    "id": "artificial-intelligence-115",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is few-shot prompting?"
+  },
+  {
+    "id": "artificial-intelligence-116",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is RAG?"
+  },
+  {
+    "id": "artificial-intelligence-117",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why can RAG be preferable to relying only on an LLM's internal knowledge?"
+  },
+  {
+    "id": "artificial-intelligence-118",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an embedding in a RAG system?"
+  },
+  {
+    "id": "artificial-intelligence-119",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a vector database?"
+  },
+  {
+    "id": "artificial-intelligence-120",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "RAG versus fine-tuning: what is the basic difference?"
+  },
+  {
+    "id": "artificial-intelligence-121",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you reduce hallucinations in a RAG application?"
+  },
+  {
+    "id": "artificial-intelligence-122",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are the main components of Reinforcement Learning?"
+  },
+  {
+    "id": "artificial-intelligence-123",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a policy in reinforcement learning?"
+  },
+  {
+    "id": "artificial-intelligence-124",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the exploration- exploitation problem in RL?"
+  },
+  {
+    "id": "artificial-intelligence-125",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Q-Learning?"
+  },
+  {
+    "id": "artificial-intelligence-126",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between on-policy and off-policy learning?"
+  },
+  {
+    "id": "artificial-intelligence-127",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a reward function?"
+  },
+  {
+    "id": "artificial-intelligence-128",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "senior",
+    "category": "Concepts",
+    "question": "Why is reward design important?"
+  },
+  {
+    "id": "artificial-intelligence-129",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the discount factor?"
+  },
+  {
+    "id": "artificial-intelligence-130",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Computer Vision?"
+  },
+  {
+    "id": "artificial-intelligence-131",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is image classification?"
+  },
+  {
+    "id": "artificial-intelligence-132",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is object detection?"
+  },
+  {
+    "id": "artificial-intelligence-133",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is image segmentation?"
+  },
+  {
+    "id": "artificial-intelligence-134",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why are CNNs widely used in computer vision?"
+  },
+  {
+    "id": "artificial-intelligence-135",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is data augmentation in computer vision?"
+  },
+  {
+    "id": "artificial-intelligence-136",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a GAN?"
+  },
+  {
+    "id": "artificial-intelligence-137",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a diffusion model?"
+  },
+  {
+    "id": "artificial-intelligence-138",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Style",
+    "question": "What is Explainable AI?"
+  },
+  {
+    "id": "artificial-intelligence-139",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Style",
+    "question": "Why is explainability It can support trust, debugging, A bank may need to explain Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/DSA/COMP/2026- 27/Training/VII/1 Date: 08/09/2026 important?"
+  },
+  {
+    "id": "artificial-intelligence-140",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is bias in AI?"
+  },
+  {
+    "id": "artificial-intelligence-141",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How can bias enter an AI system?"
+  },
+  {
+    "id": "artificial-intelligence-142",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is model drift?"
+  },
+  {
+    "id": "artificial-intelligence-143",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is data drift?"
+  },
+  {
+    "id": "artificial-intelligence-144",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is MLOps?"
+  },
+  {
+    "id": "artificial-intelligence-145",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why should an AI model be monitored after deployment?"
+  },
+  {
+    "id": "artificial-intelligence-146",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Your AI model has excellent test accuracy but poor production performance. What would you investigate?"
+  },
+  {
+    "id": "artificial-intelligence-147",
+    "topic": "Artificial Intelligence",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "An LLM gives incorrect answers from a company's internal documents. How would you investigate?"
+  },
+  {
+    "id": "data-structures-algorithms-1",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a data structure?"
+  },
+  {
+    "id": "data-structures-algorithms-2",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an algorithm?"
+  },
+  {
+    "id": "data-structures-algorithms-3",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between an array and a linked list?"
+  },
+  {
+    "id": "data-structures-algorithms-4",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the main advantage of an array?"
+  },
+  {
+    "id": "data-structures-algorithms-5",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the disadvantage of an array?"
+  },
+  {
+    "id": "data-structures-algorithms-6",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a linked list?"
+  },
+  {
+    "id": "data-structures-algorithms-7",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a stack?"
+  },
+  {
+    "id": "data-structures-algorithms-8",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a queue?"
+  },
+  {
+    "id": "data-structures-algorithms-9",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between stack and queue?"
+  },
+  {
+    "id": "data-structures-algorithms-10",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are the basic operations of a stack?"
+  },
+  {
+    "id": "data-structures-algorithms-11",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are the basic operations of a queue?"
+  },
+  {
+    "id": "data-structures-algorithms-12",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is stack overflow?"
+  },
+  {
+    "id": "data-structures-algorithms-13",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is stack underflow?"
+  },
+  {
+    "id": "data-structures-algorithms-14",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a circular queue?"
+  },
+  {
+    "id": "data-structures-algorithms-15",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a tree?"
+  },
+  {
+    "id": "data-structures-algorithms-16",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a binary tree?"
+  },
+  {
+    "id": "data-structures-algorithms-17",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a Binary Search Tree?"
+  },
+  {
+    "id": "data-structures-algorithms-18",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "Which traversal of a BST gives sorted order?"
+  },
+  {
+    "id": "data-structures-algorithms-19",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are tree traversal techniques?"
+  },
+  {
+    "id": "data-structures-algorithms-20",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a heap?"
+  },
+  {
+    "id": "data-structures-algorithms-21",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a graph?"
+  },
+  {
+    "id": "data-structures-algorithms-22",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between BFS and DFS?"
+  },
+  {
+    "id": "data-structures-algorithms-23",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is searching?"
+  },
+  {
+    "id": "data-structures-algorithms-24",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is linear search?"
+  },
+  {
+    "id": "data-structures-algorithms-25",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is binary search?"
+  },
+  {
+    "id": "data-structures-algorithms-26",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the time complexity of binary search?"
+  },
+  {
+    "id": "data-structures-algorithms-27",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is sorting?"
+  },
+  {
+    "id": "data-structures-algorithms-28",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between Bubble Sort and Selection Sort?"
+  },
+  {
+    "id": "data-structures-algorithms-29",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Merge Sort?"
+  },
+  {
+    "id": "data-structures-algorithms-30",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Quick Sort?"
+  },
+  {
+    "id": "data-structures-algorithms-31",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is time complexity?"
+  },
+  {
+    "id": "data-structures-algorithms-32",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is space complexity?"
+  },
+  {
+    "id": "data-structures-algorithms-33",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Big-O notation?"
+  },
+  {
+    "id": "data-structures-algorithms-34",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is recursion?"
+  },
+  {
+    "id": "data-structures-algorithms-35",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the base condition in recursion?"
+  },
+  {
+    "id": "data-structures-algorithms-36",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Dynamic Programming?"
+  },
+  {
+    "id": "data-structures-algorithms-37",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the Greedy algorithm?"
+  },
+  {
+    "id": "data-structures-algorithms-38",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Divide and Conquer?"
+  },
+  {
+    "id": "data-structures-algorithms-39",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Backtracking?"
+  },
+  {
+    "id": "data-structures-algorithms-40",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is hashing?"
+  },
+  {
+    "id": "data-structures-algorithms-41",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a doubly linked list?"
+  },
+  {
+    "id": "data-structures-algorithms-42",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a circular linked list?"
+  },
+  {
+    "id": "data-structures-algorithms-43",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between singly and doubly linked list?"
+  },
+  {
+    "id": "data-structures-algorithms-44",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a priority queue?"
+  },
+  {
+    "id": "data-structures-algorithms-45",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between a queue and a priority queue?"
+  },
+  {
+    "id": "data-structures-algorithms-46",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an AVL tree?"
+  },
+  {
+    "id": "data-structures-algorithms-47",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the height of a tree?"
+  },
+  {
+    "id": "data-structures-algorithms-48",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between a tree and a graph?"
+  },
+  {
+    "id": "data-structures-algorithms-49",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an adjacency matrix?"
+  },
+  {
+    "id": "data-structures-algorithms-50",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an adjacency list?"
+  },
+  {
+    "id": "data-structures-algorithms-51",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is collision in hashing?"
+  },
+  {
+    "id": "data-structures-algorithms-52",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are the common methods to resolve collisions in hashing?"
+  },
+  {
+    "id": "data-structures-algorithms-53",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the time complexity of Bubble Sort, Selection Sort, and Insertion Sort?"
+  },
+  {
+    "id": "data-structures-algorithms-54",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the time complexity of Merge Sort and Quick Sort?"
+  },
+  {
+    "id": "data-structures-algorithms-55",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between a stable and an unstable sorting algorithm?"
+  },
+  {
+    "id": "data-structures-algorithms-56",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between BFS and Dijkstra's algorithm?"
+  },
+  {
+    "id": "data-structures-algorithms-57",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is memoization?"
+  },
+  {
+    "id": "data-structures-algorithms-58",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between recursion and iteration?"
+  },
+  {
+    "id": "data-structures-algorithms-59",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a complete binary tree?"
+  },
+  {
+    "id": "data-structures-algorithms-60",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between A binary tree only restricts the number of children (at most two). A Binary Search Tree Any hierarchical structure can be a binary tree. When we also need fast ordered search, Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/DSA/COMP/2026- 27/Training/VII/1 Date: 08/09/2026 a binary tree and a Binary Search Tree?"
+  },
+  {
+    "id": "data-structures-algorithms-61",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "When would you use a linked list instead of an array?"
+  },
+  {
+    "id": "data-structures-algorithms-62",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the advantage of using a circular queue over a linear queue?"
+  },
+  {
+    "id": "data-structures-algorithms-63",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is topological sorting?"
+  },
+  {
+    "id": "data-structures-algorithms-64",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between a min-heap and a max-heap?"
+  },
+  {
+    "id": "data-structures-algorithms-65",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the load factor in hashing?"
+  },
+  {
+    "id": "data-structures-algorithms-66",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are the two main approaches in Dynamic Programming?"
+  },
+  {
+    "id": "data-structures-algorithms-67",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between Memoization and Tabulation?"
+  },
+  {
+    "id": "data-structures-algorithms-68",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are overlapping subproblems?"
+  },
+  {
+    "id": "data-structures-algorithms-69",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is optimal substructure?"
+  },
+  {
+    "id": "data-structures-algorithms-70",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "When should you use Dynamic We should switch to Dynamic Programming whenever the recursive solution keeps solving the Fibonacci and 0/1 Knapsack benefit hugely from DP. Merge Sort doesn't need DP Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/DSA/COMP/2026- 27/Training/VII/1 Date: 08/09/2026 Programming instead of plain recursion?"
+  },
+  {
+    "id": "data-structures-algorithms-71",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the 0/1 Knapsack problem?"
+  },
+  {
+    "id": "data-structures-algorithms-72",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between 0/1 Knapsack and Fractional Knapsack?"
+  },
+  {
+    "id": "data-structures-algorithms-73",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How do you find the Longest Common Subsequence (LCS) using DP?"
+  },
+  {
+    "id": "data-structures-algorithms-74",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between subsequence and substring?"
+  },
+  {
+    "id": "data-structures-algorithms-75",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How can the Fibonacci sequence be solved using Dynamic Programming?"
+  },
+  {
+    "id": "data-structures-algorithms-76",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the time and space complexity of the bottom-up DP solution for Fibonacci?"
+  },
+  {
+    "id": "data-structures-algorithms-77",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the Coin Change problem in Dynamic Programming?"
+  },
+  {
+    "id": "data-structures-algorithms-78",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between Dynamic Programming and Greedy A Greedy algorithm always picks the choice that looks best right now and never looks back. Dynamic Programming considers all possibilities by solving every overlapping subproblem, and therefore guarantees the global optimum when the Fractional Knapsack can be solved correctly by Greedy. 0/1 Knapsack generally needs the full power of DP. Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/DSA/COMP/2026- 27/Training/VII/1 Date: 08/09/2026 algorithms?"
+  },
+  {
+    "id": "data-structures-algorithms-79",
+    "topic": "Data Structures & Algorithms",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between Dynamic Programming and Divide and Conquer?"
+  },
+  {
+    "id": "dbms-and-sql-1",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a Database?"
+  },
+  {
+    "id": "dbms-and-sql-2",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is DBMS?"
+  },
+  {
+    "id": "dbms-and-sql-3",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is RDBMS?"
+  },
+  {
+    "id": "dbms-and-sql-4",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between DBMS and RDBMS?"
+  },
+  {
+    "id": "dbms-and-sql-5",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are the advantages of using a DBMS?"
+  },
+  {
+    "id": "dbms-and-sql-6",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is data redundancy?"
+  },
+  {
+    "id": "dbms-and-sql-7",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is data integrity?"
+  },
+  {
+    "id": "dbms-and-sql-8",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a database schema?"
+  },
+  {
+    "id": "dbms-and-sql-9",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a database instance?"
+  },
+  {
+    "id": "dbms-and-sql-10",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a table in a relational database?"
+  },
+  {
+    "id": "dbms-and-sql-11",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a tuple?"
+  },
+  {
+    "id": "dbms-and-sql-12",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an attribute?"
+  },
+  {
+    "id": "dbms-and-sql-13",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an entity?"
+  },
+  {
+    "id": "dbms-and-sql-14",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a relationship in an ER model?"
+  },
+  {
+    "id": "dbms-and-sql-15",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a primary key?"
+  },
+  {
+    "id": "dbms-and-sql-16",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a candidate key?"
+  },
+  {
+    "id": "dbms-and-sql-17",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a super key?"
+  },
+  {
+    "id": "dbms-and-sql-18",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a foreign key?"
+  },
+  {
+    "id": "dbms-and-sql-19",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a composite A composite key is a key (StudentID, CourseID) can Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/OS/COMP/2026- 27/Training/VII/1 Date: 02/09/2026 key?"
+  },
+  {
+    "id": "dbms-and-sql-20",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are integrity constraints?"
+  },
+  {
+    "id": "dbms-and-sql-21",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is normalization?"
+  },
+  {
+    "id": "dbms-and-sql-22",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is 1NF?"
+  },
+  {
+    "id": "dbms-and-sql-23",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is 2NF?"
+  },
+  {
+    "id": "dbms-and-sql-24",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is 3NF?"
+  },
+  {
+    "id": "dbms-and-sql-25",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is BCNF?"
+  },
+  {
+    "id": "dbms-and-sql-26",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are insertion, deletion, and update anomalies?"
+  },
+  {
+    "id": "dbms-and-sql-27",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is SQL?"
+  },
+  {
+    "id": "dbms-and-sql-28",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are the major categories of SQL commands?"
+  },
+  {
+    "id": "dbms-and-sql-29",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is DDL?"
+  },
+  {
+    "id": "dbms-and-sql-30",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is DML?"
+  },
+  {
+    "id": "dbms-and-sql-31",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is DQL?"
+  },
+  {
+    "id": "dbms-and-sql-32",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between DELETE, TRUNCATE, and DROP?"
+  },
+  {
+    "id": "dbms-and-sql-33",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the SELECT statement?"
+  },
+  {
+    "id": "dbms-and-sql-34",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the WHERE clause?"
+  },
+  {
+    "id": "dbms-and-sql-35",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between WHERE and HAVING?"
+  },
+  {
+    "id": "dbms-and-sql-36",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is GROUP BY?"
+  },
+  {
+    "id": "dbms-and-sql-37",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is ORDER BY?"
+  },
+  {
+    "id": "dbms-and-sql-38",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are aggregate functions in SQL?"
+  },
+  {
+    "id": "dbms-and-sql-39",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a JOIN?"
+  },
+  {
+    "id": "dbms-and-sql-40",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between INNER JOIN and LEFT JOIN?"
+  },
+  {
+    "id": "dbms-and-sql-41",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a subquery?"
+  },
+  {
+    "id": "dbms-and-sql-42",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you find Use a subquery to calculate the SELECT * FROM Employee Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/OS/COMP/2026- 27/Training/VII/1 Date: 02/09/2026 employees earning more than the average salary?"
+  },
+  {
+    "id": "dbms-and-sql-43",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a view?"
+  },
+  {
+    "id": "dbms-and-sql-44",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an index?"
+  },
+  {
+    "id": "dbms-and-sql-45",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are the advantages and disadvantages of indexes?"
+  },
+  {
+    "id": "dbms-and-sql-46",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a transaction?"
+  },
+  {
+    "id": "dbms-and-sql-47",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are ACID properties?"
+  },
+  {
+    "id": "dbms-and-sql-48",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is atomicity?"
+  },
+  {
+    "id": "dbms-and-sql-49",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between COMMIT COMMIT permanently saves transaction changes, while UPDATE Employee SET Salary=50000 WHERE Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/OS/COMP/2026- 27/Training/VII/1 Date: 02/09/2026 and ROLLBACK?"
+  },
+  {
+    "id": "dbms-and-sql-50",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How can you find the second-highest salary in SQL?"
+  },
+  {
+    "id": "dbms-and-sql-51",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is CRUD ?"
+  },
+  {
+    "id": "dbms-and-sql-52",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is schema in DBMS ?"
+  },
+  {
+    "id": "dbms-and-sql-53",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a trigger?"
+  },
+  {
+    "id": "dbms-and-sql-54",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is denormalization?"
+  },
+  {
+    "id": "dbms-and-sql-55",
+    "topic": "DBMS and SQL",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is NULL in SQL ?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-1",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is Object- Oriented Programming?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-2",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are the four pillars of OOP?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-3",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is encapsulation?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-4",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the advantage of encapsulation?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-5",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is abstraction?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-6",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between abstraction and encapsulation?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-7",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is inheritance?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-8",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are the types of inheritance?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-9",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is single inheritance?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-10",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is multilevel inheritance?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-11",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is polymorphism?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-12",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is method overloading?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-13",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is method overriding?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-14",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between overloading and overriding?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-15",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is runtime polymorphism?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-16",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is compile-time polymorphism?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-17",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a constructor?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-18",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is constructor overloading?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-19",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is constructor chaining?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-20",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the super keyword?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-21",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the this keyword?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-22",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an abstract class?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-23",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an interface?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-24",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between an abstract class and an interface?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-25",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Does Java support multiple inheritance?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-26",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is association, aggregation, and composition?"
+  },
+  {
+    "id": "oop-and-programming-fundamentals-27",
+    "topic": "OOP and Programming Fundamentals",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between IS-A and HAS-A relationships?"
+  },
+  {
+    "id": "operating-system-1",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an operating system and what does it do?"
+  },
+  {
+    "id": "operating-system-2",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between kernel mode and user mode?"
+  },
+  {
+    "id": "operating-system-3",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a system call and can you name a few?"
+  },
+  {
+    "id": "operating-system-4",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between a process and a thread?"
+  },
+  {
+    "id": "operating-system-5",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are the states a process goes through?"
+  },
+  {
+    "id": "operating-system-6",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a context switch and why does it cost time?"
+  },
+  {
+    "id": "operating-system-7",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is CPU scheduling and why is it needed?"
+  },
+  {
+    "id": "operating-system-8",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between preemptive and non-preemptive scheduling?"
+  },
+  {
+    "id": "operating-system-9",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is virtual memory?"
+  },
+  {
+    "id": "operating-system-10",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is paging?"
+  },
+  {
+    "id": "operating-system-11",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between internal and external fragmentation?"
+  },
+  {
+    "id": "operating-system-12",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a file system and what does it manage?"
+  },
+  {
+    "id": "operating-system-13",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between an absolute and a relative path?"
+  },
+  {
+    "id": "operating-system-14",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "senior",
+    "category": "Concepts",
+    "question": "What is the difference between concurrency and parallelism?"
+  },
+  {
+    "id": "operating-system-15",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "senior",
+    "category": "Concepts",
+    "question": "What is a deadlock and what conditions cause it?"
+  },
+  {
+    "id": "operating-system-16",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between multiprogramming, multitasking, and multiprocessing?"
+  },
+  {
+    "id": "operating-system-17",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "Why does the CPU have caches, and how do they help?"
+  },
+  {
+    "id": "operating-system-18",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are buffering and spooling?"
+  },
+  {
+    "id": "operating-system-19",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is a race condition A race condition occurs when the result of A parking lot with 10 spaces Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/OS/COMP/2026- 27/Training/VII/3 Date: 02/09/2026 and how do you prevent it?"
+  },
+  {
+    "id": "operating-system-20",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between a mutex and a semaphore?"
+  },
+  {
+    "id": "operating-system-21",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "senior",
+    "category": "Concepts",
+    "question": "How does an OS handle deadlocks?"
+  },
+  {
+    "id": "operating-system-22",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the Banker's algorithm?"
+  },
+  {
+    "id": "operating-system-23",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are page replacement algorithms and why do they matter?"
+  },
+  {
+    "id": "operating-system-24",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is thrashing and how do you fix it?"
+  },
+  {
+    "id": "operating-system-25",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the TLB and why is it important?"
+  },
+  {
+    "id": "operating-system-26",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is demand paging?"
+  },
+  {
+    "id": "operating-system-27",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between segmentation Paging divides memory into fixed-size pages and frames and uses mechanical Chat applications use sockets for IPC. Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/OS/COMP/2026- 27/Training/VII/3 Date: 02/09/2026 and paging?"
+  },
+  {
+    "id": "operating-system-28",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are the main inter- process communication mechanisms?"
+  },
+  {
+    "id": "operating-system-29",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between user-level and kernel-level threads?"
+  },
+  {
+    "id": "operating-system-30",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is priority inversion and how is it solved?"
+  },
+  {
+    "id": "operating-system-31",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between a spinlock and a mutex?"
+  },
+  {
+    "id": "operating-system-32",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are zombie and orphan processes?"
+  },
+  {
+    "id": "operating-system-33",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is DMA and why does it matter?"
+  },
+  {
+    "id": "operating-system-34",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between a monolithic kernel and a microkernel?"
+  },
+  {
+    "id": "operating-system-35",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is copy-on-write and where is it used?"
+  },
+  {
+    "id": "operating-system-36",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How do fork and exec work together to run a new program?"
+  },
+  {
+    "id": "operating-system-37",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are memory- mapped files and when are they useful?"
+  },
+  {
+    "id": "operating-system-38",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What are memory barriers and why are they needed?"
+  },
+  {
+    "id": "operating-system-39",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the difference between interrupts and polling for I/O?"
+  },
+  {
+    "id": "operating-system-40",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the working set model?"
+  },
+  {
+    "id": "operating-system-41",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How does a modern fair- share scheduler like Linux CFS work?"
+  },
+  {
+    "id": "operating-system-42",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is an inode and what does it store?"
+  },
+  {
+    "id": "operating-system-43",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is the readers- writers problem?"
+  },
+  {
+    "id": "operating-system-44",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "What is NUMA and why NUMA (Non-Uniform Memory Access) is a A web server thread pool Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/OS/COMP/2026- 27/Training/VII/3 Date: 02/09/2026 does it matter for performance?"
+  },
+  {
+    "id": "operating-system-45",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "A system has three processes P1, P2, and P3. P1 arrives first but requires 10 ms CPU time, while P2 and P3 require only 2 ms each. If the system uses FCFS, what problem may occur?"
+  },
+  {
+    "id": "operating-system-46",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "A process with a CPU burst of 20 ms is running. A new process with a CPU burst of 2 ms arrives. Under SJF, should the new process immediately execute?"
+  },
+  {
+    "id": "operating-system-47",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "Suppose P1 requires 10 ms and P2 requires 2 ms. Both arrive at the same time. Which process should execute first under SJF and why?"
+  },
+  {
+    "id": "operating-system-48",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "A process has been waiting for a very long time because shorter processes continuously arrive. Which scheduling problem is this?"
+  },
+  {
+    "id": "operating-system-49",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "A Round Robin system uses a time quantum of 2 ms. A process requires 10 ms of CPU time. How many CPU time slices will it receive?"
+  },
+  {
+    "id": "operating-system-50",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "What happens if the Round Robin time quantum is extremely Round Robin starts behaving similarly to FCFS because processes can complete their CPU bursts before the time quantum If the quantum is 1 second while most processes require only 50 ms, Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/OS/COMP/2026- 27/Training/VII/3 Date: 02/09/2026 large?"
+  },
+  {
+    "id": "operating-system-51",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "A process performs CPU work for 5 ms, waits for I/O for 20 ms, and then requires another 5 ms of CPU time. Should the scheduler keep the process on the CPU during its I/O wait?"
+  },
+  {
+    "id": "operating-system-52",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "A scheduler always chooses the process with the shortest remaining CPU burst. Which algorithm is this?"
+  },
+  {
+    "id": "operating-system-53",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "What information does an OS need to implement SJF effectively?"
+  },
+  {
+    "id": "operating-system-54",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "A process arrives at 0 ms and completes at 20 ms. What is its turnaround time?"
+  },
+  {
+    "id": "operating-system-55",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "A real-time application must complete a task before a strict deadline. Which scheduling concept becomes particularly important?"
+  },
+  {
+    "id": "operating-system-56",
+    "topic": "Operating System",
+    "mode": "Technical",
+    "difficulty": "fresher",
+    "category": "Concepts",
+    "question": "Two real-time tasks have deadlines of 20 ms and 50 The task with the earlier deadline, 20 ms, gets priority. A control task due in 20 ms would be scheduled before a Shiksha Mandal’s Bajaj Institute of Technology, Wardha (Recognized under section 2(f) of UGC Act 1956) (Affiliated to DBATU, Lonere, Raigad, Maharashtra) Academic Session: 2026-27 BITACAD/OS/COMP/2026- 27/Training/VII/3 Date: 02/09/2026 ms. Under EDF, which task gets priority?"
+  },
+  {
+    "id": "programming-languages-1",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Employee Salary Processing to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-2",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Classes and Objects to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-3",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Constructors to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-4",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply ArrayList to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-5",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Lambda Expressions to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-6",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Java Streams to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-7",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Comparator to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-8",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Remove Duplicate Customers to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-9",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply List to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-10",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Set to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-11",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply LinkedHashSet to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-12",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Object Comparison to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-13",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Collections to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-14",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Student Marks Analysis to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-15",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Arrays to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-16",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Classes to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-17",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Loops to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-18",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Methods to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-19",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Aggregation to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-20",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Conditional Statements to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-21",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Word Frequency in Customer to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-22",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Strings to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-23",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply HashMap to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-24",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Map Operations to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-25",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Frequency Counting to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-26",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Bank Withdrawal with Custom to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-27",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Exception Handling to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-28",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Custom Exceptions to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-29",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Product Sorting to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-30",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Multiple Sorting Criteria to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-31",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Objects to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-32",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Find the Second Highest Salary to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-33",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Streams to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-34",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Distinct Values to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-35",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Sorting to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-36",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Problem Solving to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-37",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Inventory Management System to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-38",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Step-by-Step Logic to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-39",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply BITACAD/OS/COMP/2026- to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-40",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply CRUD Operations to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-41",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Map Traversal to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-42",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Immutable User Class to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-43",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Immutability to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-44",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Encapsulation to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-45",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Defensive Copying to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-46",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Getter Methods to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-47",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Railway Seat Booking to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-48",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Multithreading to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-49",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Threads to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-50",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Race Conditions to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-51",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Synchronization to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-52",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Shared Resources to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-53",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply String Compression to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-54",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply StringBuilder to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-55",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Character Processing to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-56",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply String Algorithms to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-57",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply ).append(count); to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-58",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Balanced Brackets to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-59",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Stack to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-60",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Deque to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-61",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Algorithms to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-62",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Group Employees by Department to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-63",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Collectors to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-64",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Maps to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-65",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Lists to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-66",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Object Processing to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-67",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Student File Processing to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-68",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply File Handling to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-69",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply BufferedReader to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-70",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Try-with-resources to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-71",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Exceptions to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-72",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Payment Processing Using Method to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-73",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Inheritance to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-74",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Polymorphism to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-75",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Method Overriding to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-76",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Runtime Polymorphism to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-77",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply OOP to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-78",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Duplicate Transaction Detection to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-79",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply HashSet to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-80",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Duplicate Detection to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-81",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Algorithm Complexity to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-82",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Large Datasets to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-83",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Order Search Using Optional to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-84",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Optional to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-85",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Java 8 to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-86",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Null Handling to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-87",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Object-Oriented Programming to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-88",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Producer-Consumer Log System to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-89",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Producer-Consumer to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-90",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply BlockingQueue to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-91",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Thread Communication to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-92",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "senior",
+    "category": "Concepts",
+    "question": "How would you apply Concurrent Collections to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-93",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Highest-Paid Employee per to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-94",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Collectors.groupingBy() to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-95",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Library Management System to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-96",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Searching to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-97",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "senior",
+    "category": "Concepts",
+    "question": "How would you apply Real-World Application Design to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-98",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Notification System Using Interface to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-99",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Interfaces to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-100",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Interface Implementation to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-101",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Abstraction to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-102",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Loose Coupling to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-103",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Employee Salary Using Abstract to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-104",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Abstract Classes to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-105",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply ContractEmployee. to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-106",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Abstract Methods to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-107",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Generic Repository to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-108",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Generics to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-109",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Generic Classes to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-110",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Type Parameters to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-111",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Reusable Code to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-112",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Generic Calculator with Bounded to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-113",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Generic Methods to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-114",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Bounded Generics to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-115",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Number to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-116",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Type Safety to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-117",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Order Status Management Using to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-118",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Enum to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-119",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply State Representation to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-120",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Constants to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-121",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Student Record Using Java Record to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-122",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Java Records to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-123",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Immutable Data to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-124",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Modern Java to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-125",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Accessor Methods to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-126",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Calculate Employee Experience to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-127",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply LocalDate to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-128",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Period to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-129",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Java Date/Time API to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-130",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    
+    "category": "Concepts",
+    "question": "How would you apply Modern Date Handling to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-131",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Functional Interfaces for Employee to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-132",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Functional Interfaces to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-133",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Predicate to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-134",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Java 8 Functional Programming to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-135",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Product Processing Using Function, to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-136",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Supplier to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-137",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Function to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-138",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Consumer to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-139",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Functional Programming to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-140",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Student Sorting Using Method to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-141",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Method References to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-142",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Lambda Simplification to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-143",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Save and Restore Student Objects to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-144",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Serialization to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-145",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Deserialization to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-146",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Serializable to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-147",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Order Processing Using to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-148",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply ExecutorService to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-149",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Thread Pools to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-150",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "senior",
+    "category": "Concepts",
+    "question": "How would you apply Concurrency to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-151",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Runnable Tasks to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-152",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Resource Management to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-153",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Database Employee Management to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-154",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply JDBC to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-155",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Database Connection to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-156",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Connection to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-157",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply PreparedStatement to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-158",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply ResultSet to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-159",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply SQL to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-160",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Custom Annotation for User to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-161",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Custom Annotations to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-162",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Reflection to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-163",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Metadata to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-164",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Runtime Annotations to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-165",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Method Class to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-166",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Payment System Using Strategy to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-167",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Strategy Pattern to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-168",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How would you apply Composition to solve a practical programming problem?"
+  },
+  {
+    "id": "programming-languages-169",
+    "topic": "Programming Languages",
+    "mode": "Technical",
+    "difficulty": "senior",
+    "category": "Concepts",
+    "question": "How would you apply Software Design Principles to solve a practical programming problem?"
+  },
+  {
+    "id": "rag-architectures-1",
+    "topic": "RAG Architectures",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How does Standard RAG work, and when would you use it?"
+  },
+  {
+    "id": "rag-architectures-2",
+    "topic": "RAG Architectures",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How does Agentic RAG work, and when would you use it?"
+  },
+  {
+    "id": "rag-architectures-3",
+    "topic": "RAG Architectures",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How does RAG with Memory work, and when would you use it?"
+  },
+  {
+    "id": "rag-architectures-4",
+    "topic": "RAG Architectures",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How does Self RAG work, and when would you use it?"
+  },
+  {
+    "id": "rag-architectures-5",
+    "topic": "RAG Architectures",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How does Adaptive RAG work, and when would you use it?"
+  },
+  {
+    "id": "rag-architectures-6",
+    "topic": "RAG Architectures",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How does Corrective RAG work, and when would you use it?"
+  },
+  {
+    "id": "rag-architectures-7",
+    "topic": "RAG Architectures",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How does Attention-based RAG work, and when would you use it?"
+  },
+  {
+    "id": "rag-architectures-8",
+    "topic": "RAG Architectures",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How does HybridAI RAG work, and when would you use it?"
+  },
+  {
+    "id": "rag-architectures-9",
+    "topic": "RAG Architectures",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Concepts",
+    "question": "How does Cost-Constrained RAG work, and when would you use it?"
+  },
+  {
+    "id": "rag-architectures-10",
+    "topic": "RAG Architectures",
+    "mode": "Technical",
+    "difficulty": "mid",
+    "category": "Style",
+    "question": "How does XAI RAG (Explainable AI RAG) work, and when would you use it?"
+  }
+]

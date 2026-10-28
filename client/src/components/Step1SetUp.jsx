@@ -12,7 +12,7 @@ import axios from "axios"
 import { ServerUrl } from '../App';
 function Step1SetUp({ onStart }) {
     const [role, setRole] = useState("");
-    const [experience, setExperience] = useState("");
+    const [experience, setExperience] = useState("0-1 years");
     const [mode, setMode] = useState("Technical");
     const [interviewLevel, setInterviewLevel] = useState("medium");
     const [resumeFile, setResumeFile] = useState(null);
@@ -50,7 +50,6 @@ function Step1SetUp({ onStart }) {
             setResumeChoice("new");
             setResumeFile(null);
             setRole(result.data.role || "");
-            setExperience(result.data.experience || "");
             setAnalysisDone(true);
 
             setAnalyzing(false);
@@ -72,7 +71,8 @@ function Step1SetUp({ onStart }) {
              audioContext = new AudioContextClass();
              if (audioContext.state === "suspended") audioContext.resume().catch(() => {});
            }
-           const result = await axios.post(ServerUrl + "/api/interview/generate-questions" , {role, experience, mode, interviewLevel, resumeId: resumeChoice === "none" ? null : selectedResumeId } , {withCredentials:true}) 
+           const experienceLevel = experience === "0-1 years" ? "fresher" : experience === "2-5 years" ? "mid-level" : "senior";
+           const result = await axios.post(ServerUrl + "/api/interview/generate-questions" , {role, experience, experienceLevel, mode, interviewLevel, resumeId: resumeChoice === "none" ? null : selectedResumeId } , {withCredentials:true})
            console.log(result.data)
            setLoading(false)
            onStart(result.data, audioContext)
@@ -168,14 +168,14 @@ function Step1SetUp({ onStart }) {
 
 
                         <div className='relative'>
-                            <FaBriefcase className='absolute top-4 left-4 text-gray-400' />
-
-                            <input type='text' placeholder='Experience (e.g. 2 years)'
-                                className='w-full pl-12 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-green-500 outline-none transition'
-                                onChange={(e) => setExperience(e.target.value)} value={experience} />
-
-
-
+                            <FaBriefcase className='absolute top-4 left-4 text-gray-400 pointer-events-none' />
+                            <select aria-label="Experience level" value={experience}
+                                onChange={(e) => setExperience(e.target.value)}
+                                className='w-full pl-12 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-green-500 outline-none transition bg-white'>
+                                <option value="0-1 years">0–1 years (Entry level)</option>
+                                <option value="2-5 years">2–5 years (Mid level)</option>
+                                <option value="5+ years">5+ years (Senior)</option>
+                            </select>
                         </div>
 
                         <select value={mode}

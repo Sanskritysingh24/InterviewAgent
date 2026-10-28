@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const questionsSchema = new mongoose.Schema({
   question: String,
-  category: String,
+  category: { type: String, enum: ["Concepts", "Attitude", "Vocabulary", "Style", "Technical", "HR", "Behavioral", "theory", "coding", "practical", "scenario"], default: "Concepts" },
   questionId: { type: mongoose.Schema.Types.ObjectId, ref: "Question" },
 
   // Follow-up tracking
@@ -12,10 +12,15 @@ const questionsSchema = new mongoose.Schema({
   difficulty: String,
   timeLimit: Number,
   answer: String,
+  userAnswer: { type: String, default: "" },
   feedback: String,                              // positive + improvement (UI ke liye)
+  correctAnswer: { type: String, default: "" },
+  verdict: { type: String, enum: ["good", "average", "poor"], default: null },
+  strengths: { type: [String], default: [] },
+  improvements: { type: [String], default: [] },
   positiveFeedback: String,
   improvementFeedback: String,
-  score: { type: Number, default: 0 },
+  score: { type: Number, min: 0, max: 100, default: 0 },
   confidence: { type: Number, default: 0 },
   communication: { type: Number, default: 0 },
   correctness: { type: Number, default: 0 },     // = technical accuracy
@@ -37,6 +42,11 @@ const interviewSchema = new mongoose.Schema({
   experience: {
     type: String,
     required: true
+  },
+  experienceLevel: {
+    type: String,
+    enum: ["fresher", "mid-level", "senior"],
+    default: "fresher",
   },
   mode: {
     type: String,
@@ -71,6 +81,7 @@ const interviewSchema = new mongoose.Schema({
   questions: [questionsSchema],
 
   finalScore: { type: Number, default: 0 },
+  finalScorePercent: { type: Number, min: 0, max: 100, default: 0 },
   completedAt: { type: Date, default: null },
 
   status: {

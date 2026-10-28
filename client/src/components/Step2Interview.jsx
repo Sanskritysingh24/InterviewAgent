@@ -34,6 +34,8 @@ function Step2Interview({ interviewData, onFinish, audioContext }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answer, setAnswer] = useState("");
   const [feedback, setFeedback] = useState("");
+  const [correctAnswer, setCorrectAnswer] = useState("");
+  const [submittedAnswer, setSubmittedAnswer] = useState("");
   const [timeLeft, setTimeLeft] = useState(
     questions[0]?.timeLimit || 60
   );
@@ -85,6 +87,12 @@ function Step2Interview({ interviewData, onFinish, audioContext }) {
   };
 
   const currentQuestion = questions[currentIndex];
+  const feedbackTone = currentQuestion?.verdict === "good"
+    ? "green"
+    : currentQuestion?.verdict === "average" ? "yellow" : "red";
+  const feedbackStyles = feedbackTone === "green"
+    ? "bg-green-500 border-green-600 text-white"
+    : feedbackTone === "yellow" ? "bg-yellow-300 border-yellow-500 text-yellow-950" : "bg-red-500 border-red-600 text-white";
 
 
   useEffect(() => {
@@ -351,6 +359,8 @@ function Step2Interview({ interviewData, onFinish, audioContext }) {
       // Backend ne follow-up add kiya ho toh nayi list yahan aati hai
       if (result.data.questions) setQuestions(result.data.questions)
 
+      setSubmittedAnswer(answer.trim());
+      setCorrectAnswer(result.data.correctAnswer || "");
       setFeedback(result.data.feedback)
       speakText(result.data.feedback)
       setIsSubmitting(false)
@@ -363,6 +373,8 @@ setIsSubmitting(false)
   const handleNext =async () => {
     setAnswer("");
     setFeedback("");
+    setCorrectAnswer("");
+    setSubmittedAnswer("");
 
     if (currentIndex + 1 >= questions.length) {
       finishInterview();
@@ -542,8 +554,16 @@ setIsSubmitting(false)
             <motion.div 
              initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-            className='mt-6 bg-emerald-50 border border-emerald-200 p-5 rounded-2xl shadow-sm'>
-              <p className='text-emerald-700 font-medium mb-4'>{feedback}</p>
+            className={`mt-6 border p-5 rounded-2xl shadow-sm ${feedbackStyles}`}>
+              <p className='font-medium mb-4'>{feedback}</p>
+              {submittedAnswer && <div className="mb-3 rounded-xl bg-white/90 p-3 text-gray-800">
+                <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">Your answer</p>
+                <p className="mt-1 whitespace-pre-wrap text-sm">{submittedAnswer}</p>
+              </div>}
+              {correctAnswer && <div className="mb-4 rounded-xl bg-white/90 p-3 text-gray-800">
+                <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">Suggested correct answer</p>
+                <p className="mt-1 text-sm">{correctAnswer}</p>
+              </div>}
 
               <button
               onClick={handleNext}

@@ -18,9 +18,13 @@ import {
   MAX_TOTAL_QUESTIONS,
   MAX_FOLLOWUPS,
   FOLLOWUP_TIME_LIMIT,
+  QUESTION_CATEGORIES,
+  normalizeExperienceLevel,
 } from "../services/promptBuilder.service.js";
 import { parseAiJson } from "../utils/parseAiJson.js";
 import { syncUserGamification } from "../services/gamification.service.js";
+import { verdictForScore } from "../../shared/scoring.js";
+import { getFallbackQuestions } from "../services/questionBank.service.js";
 
 const ALLOWED_DIFFICULTY = ["Beginner", "Intermediate", "Advanced"]
 const CI = { locale: "en", strength: 2 }   // case-insensitive match
@@ -64,6 +68,58 @@ const safe = async (fn, label) => {
     return null
   }
 }
+
+// Retry invalid or incomplete model JSON once before using a safe fallback.
+const askValidatedJson = async (messages, validate, fallback = null, attempts = 2) => {
+  let retryMessages = messages;
+  let providerUnavailable = false;
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    try {
+      const raw = await askAi(retryMessages, { json: true });
+      const parsed = parseAiJson(raw);
+      if (validate(parsed)) return parsed;
+      retryMessages = [...messages, {
+        role: "user",
+        content: "Your last JSON did not match the required schema. Return corrected valid JSON only, with all required fields and valid values.",
+      }];
+    } catch (error) {
+      if (error?.message === "OpenRouter API Error") {
+        providerUnavailable = true;
+        break;
+      }
+      retryMessages = [...messages, {
+        role: "user",
+        content: "The last response was invalid JSON. Return corrected valid JSON only, matching the required schema.",
+      }];
+    }
+  }
+  if (fallback !== null) return fallback;
+  if (providerUnavailable) throw new Error("OpenRouter API Error");
+  throw new Error("AI could not return data matching the required schema.");
+};
+
+const validQuestionSet = (parsed, count) => Array.isArray(parsed?.questions) &&
+  parsed.questions.length === count && parsed.questions.every((question) =>
+    typeof question?.text === "string" && question.text.trim() &&
+    QUESTION_CATEGORIES.includes(question?.category) &&
+    ["easy", "medium", "hard"].includes(question?.difficulty)
+  );
+
+const validEvaluation = (parsed, expectedCategory) => {
+  const requiredKeys = ["score", "verdict", "category", "feedback", "correctAnswer", "strengths", "improvements"];
+  return parsed && typeof parsed === "object" && !Array.isArray(parsed) &&
+  Object.keys(parsed).length === requiredKeys.length && requiredKeys.every((key) => Object.hasOwn(parsed, key)) &&
+  Number.isInteger(parsed.score) && parsed.score >= 0 && parsed.score <= 100 &&
+  parsed.verdict === verdictForScore(parsed.score) && parsed.category === expectedCategory &&
+  typeof parsed.feedback === "string" && parsed.feedback.trim() &&
+  typeof parsed.correctAnswer === "string" && parsed.correctAnswer.trim() &&
+  ["strengths", "improvements"].every((field) => Array.isArray(parsed[field]) && parsed[field].every((item) => typeof item === "string"));
+};
+
+const validResume = (parsed) => typeof parsed?.role === "string" &&
+  typeof parsed?.experience === "string" && Array.isArray(parsed?.skills) &&
+  Array.isArray(parsed?.technologies) && Array.isArray(parsed?.projects) &&
+  [...parsed.skills, ...parsed.technologies, ...parsed.projects].every((item) => typeof item === "string");
 
 
 // =====================================================================
@@ -124,8 +180,13 @@ Rules:
       }
     ];
 
-    const aiResponse = await askAi(messages, { json: true })
-    const parsed = parseAiJson(aiResponse);
+    const parsed = await askValidatedJson(messages, validResume, {
+      role: "",
+      experience: "",
+      skills: [],
+      technologies: [],
+      projects: [],
+    });
 
     fs.unlinkSync(filepath)
 
@@ -185,10 +246,14 @@ export const getLatestResume = async (req, res) => {
 // =====================================================================
 export const generateQuestion = async (req, res) => {
   try {
-    let { role, experience, mode, topic, difficulty, companyTrack, resumeId, interviewLevel } = req.body
+    let { role, experience, experienceLevel, mode, topic, difficulty, companyTrack, resumeId, interviewLevel } = req.body
 
     role = role?.trim();
     experience = experience?.trim();
+    experienceLevel = normalizeExperienceLevel(experienceLevel);
+    if (!experienceLevel) {
+      return res.status(400).json({ message: "Choose fresher, mid-level, or senior experience." });
+    }
     mode = mode?.trim();
     topic = topic?.trim() || "";
     companyTrack = companyTrack?.trim() || "";
@@ -231,6 +296,7 @@ export const generateQuestion = async (req, res) => {
     let questions = [];
     let repeatedQuestion = null;
     let retryQuestions = [];
+    let bestGeneratedQuestions = [];
     for (let attempt = 0; attempt < 3; attempt += 1) {
       const avoidQuestions = [...new Set([...retryQuestions, ...historicalQuestions])].slice(0, 100);
       const messages = buildQuestionPrompt({
@@ -241,9 +307,17 @@ export const generateQuestion = async (req, res) => {
         avoidQuestions,
         count: QUESTION_COUNT,
         interviewLevel,
+        experienceLevel,
       });
-      const aiResponse = await askAi(messages, { json: true, temperature: 0.9 });
-      const generated = normalizeQuestions(parseAiJson(aiResponse), QUESTION_COUNT, interviewLevel);
+      let parsed;
+      try {
+        parsed = await askValidatedJson(messages, (output) => validQuestionSet(output, QUESTION_COUNT));
+      } catch (error) {
+        if (error?.message === "OpenRouter API Error") break;
+        continue;
+      }
+      const generated = normalizeQuestions(parsed, QUESTION_COUNT, interviewLevel);
+      if (generated.length > bestGeneratedQuestions.length) bestGeneratedQuestions = generated;
       repeatedQuestion = findRepeatedQuestions(generated, [...historicalQuestions, ...retryQuestions]);
 
       if (generated.length === QUESTION_COUNT && !repeatedQuestion) {
@@ -254,14 +328,34 @@ export const generateQuestion = async (req, res) => {
     }
 
     if (questions.length !== QUESTION_COUNT) {
-      return res.status(503).json({
-        message: "Could not generate a complete set of fresh questions. Please try starting the interview again.",
-      });
+      const usableGenerated = [];
+      for (const question of bestGeneratedQuestions) {
+        if (!findRepeatedQuestions([question], [...historicalQuestions, ...usableGenerated])) {
+          usableGenerated.push(question);
+        }
+      }
+      const bankQuestions = getFallbackQuestions({
+        mode,
+        role,
+        skills,
+        count: QUESTION_COUNT - usableGenerated.length,
+        excludeQuestions: [...historicalQuestions, ...usableGenerated.map((question) => question.text)],
+      }).map((item, index) => ({
+        text: item.question,
+        category: QUESTION_CATEGORIES.includes(item.category) ? item.category : QUESTION_CATEGORIES[index % QUESTION_CATEGORIES.length],
+        difficulty: interviewLevel,
+        timeLimit: ({ easy: 60, medium: 90, hard: 120 })[interviewLevel],
+      }));
+      questions = [...usableGenerated, ...bankQuestions].slice(0, QUESTION_COUNT);
+      if (questions.length !== QUESTION_COUNT) {
+        return res.status(503).json({ message: "There are not enough questions for this interview mode yet. Please choose another mode or try again later." });
+      }
     }
     const interview = await Interview.create({
       userId: user._id,
       role,
       experience,
+      experienceLevel,
       mode,
       topic,
       difficulty,
@@ -391,6 +485,8 @@ export const submitAnswer = async (req, res) => {
     const messages = buildEvaluationPrompt({
       role: interview.role,
       experience: interview.experience,
+      experienceLevel: interview.experienceLevel || "fresher",
+      category: question.category || "Concepts",
       mainQuestion: interview.questions[mainIdx].question,
       thread,
       currentQuestion: question.question,
@@ -400,20 +496,37 @@ export const submitAnswer = async (req, res) => {
       followUpsLeft: slotsLeft,
     })
 
-    const aiResponse = await askAi(messages, { json: true })
-    const ev = sanitizeEvaluation(parseAiJson(aiResponse))
+    const expectedCategory = question.category || "Concepts";
+    const fallbackEvaluation = {
+      score: 0,
+      verdict: "poor",
+      category: expectedCategory,
+      feedback: "You made a good attempt; add one correct detail to make your answer clearer.",
+      correctAnswer: "Give a direct answer, explain the key idea, and support it with a relevant example.",
+      strengths: ["You made an attempt."],
+      improvements: ["Add one correct detail and a clear example."],
+    };
+    const parsedEvaluation = await askValidatedJson(messages,
+      (parsed) => validEvaluation(parsed, expectedCategory), fallbackEvaluation);
+    const ev = sanitizeEvaluation(parsedEvaluation, expectedCategory)
 
     // Embedded question mein result (purana frontend/report chalta rahe)
     question.answer = answer;
+    question.userAnswer = answer;
     question.confidence = ev.confidence;
     question.communication = ev.communication;
     question.correctness = ev.technicalAccuracy;   // report page 'correctness' padhta hai
     question.completeness = ev.completeness;
     question.problemSolving = ev.problemSolving;
-    question.score = ev.finalScore;
+    question.score = ev.score;
+    question.verdict = ev.verdict;
+    question.category = ev.category;
+    question.correctAnswer = ev.correctAnswer;
+    question.strengths = ev.strengths;
+    question.improvements = ev.improvements;
     question.positiveFeedback = ev.positiveFeedback;
     question.improvementFeedback = ev.improvementFeedback;
-    question.feedback = `${ev.positiveFeedback} ${ev.improvementFeedback}`;
+    question.feedback = ev.feedback;
 
     // ----- FOLLOW-UP: backend decide karta hai -----
     const followUpText = resolveFollowUp(ev, depth, interview.maxFollowUps, asked, slotsLeft)
@@ -458,20 +571,32 @@ export const submitAnswer = async (req, res) => {
       questionId: question.questionId,
       userId: req.userId,
       answer,
+      userAnswer: answer,
+      category: question.category,
       timeTaken,
+      score: ev.score,
+      verdict: ev.verdict,
+      feedback: ev.feedback,
+      correctAnswer: ev.correctAnswer,
+      strengths: ev.strengths,
+      improvements: ev.improvements,
       technicalAccuracy: ev.technicalAccuracy,
       confidence: ev.confidence,
       communication: ev.communication,
       completeness: ev.completeness,
       problemSolving: ev.problemSolving,
-      score: ev.finalScore,
-      strengths: ev.strengths,
-      improvements: ev.improvements,
+      correctness: ev.technicalAccuracy,
       encouragement: ev.positiveFeedback,
     }), "Response.create")
 
     return res.status(200).json({
       feedback: question.feedback,
+      score: ev.score,
+      verdict: ev.verdict,
+      category: ev.category,
+      correctAnswer: ev.correctAnswer,
+      strengths: ev.strengths,
+      improvements: ev.improvements,
       positiveFeedback: ev.positiveFeedback,
       improvementFeedback: ev.improvementFeedback,
       followUp: followUpText ? { question: followUpText, depth: depth + 1 } : null,
@@ -497,23 +622,28 @@ export const finishInterview = async (req, res) => {
     const totalQuestions = interview.questions.length;
 
     let totalScore = 0;
+    let totalScorePercent = 0;
     let totalConfidence = 0;
     let totalCommunication = 0;
     let totalCorrectness = 0;
 
     interview.questions.forEach((q) => {
-      totalScore += q.score || 0;
+      const scorePercent = q.verdict ? Number(q.score) || 0 : (Number(q.score) || 0) * 10;
+      totalScorePercent += scorePercent;
+      totalScore += scorePercent / 10;
       totalConfidence += q.confidence || 0;
       totalCommunication += q.communication || 0;
       totalCorrectness += q.correctness || 0;
     });
 
     const finalScore = totalQuestions ? totalScore / totalQuestions : 0;
+    const finalScorePercent = totalQuestions ? totalScorePercent / totalQuestions : 0;
     const avgConfidence = totalQuestions ? totalConfidence / totalQuestions : 0;
     const avgCommunication = totalQuestions ? totalCommunication / totalQuestions : 0;
     const avgCorrectness = totalQuestions ? totalCorrectness / totalQuestions : 0;
 
     interview.finalScore = finalScore;
+    interview.finalScorePercent = finalScorePercent;
     if (interview.status !== "completed") interview.completedAt = new Date();
     interview.status = "completed";
     interview.conversationState = "COMPLETED";
@@ -523,15 +653,24 @@ export const finishInterview = async (req, res) => {
 
     return res.status(200).json({
       finalScore: Number(finalScore.toFixed(1)),
+      finalScorePercent: Number(finalScorePercent.toFixed(1)),
       confidence: Number(avgConfidence.toFixed(1)),
       communication: Number(avgCommunication.toFixed(1)),
       correctness: Number(avgCorrectness.toFixed(1)),
       gamification,
       questionWiseScore: interview.questions.map((q) => ({
         question: q.question,
+        category: q.category || "Concepts",
+        answer: q.userAnswer || q.answer || "",
+        userAnswer: q.userAnswer || q.answer || "",
         isFollowUp: q.isFollowUp || false,
-        score: q.score || 0,
+        score: q.verdict ? (Number(q.score) || 0) / 10 : Number(q.score) || 0,
+        scorePercent: q.verdict ? Number(q.score) || 0 : (Number(q.score) || 0) * 10,
+        verdict: q.verdict || verdictForScore((Number(q.score) || 0) * 10),
         feedback: q.feedback || "",
+        correctAnswer: q.correctAnswer || "",
+        strengths: q.strengths || [],
+        improvements: q.improvements || [],
         positiveFeedback: q.positiveFeedback || "",
         improvementFeedback: q.improvementFeedback || "",
         confidence: q.confidence || 0,
@@ -649,13 +788,34 @@ export const getInterviewReport = async (req, res) => {
 
     return res.json({
       finalScore: interview.finalScore,
+      finalScorePercent: interview.finalScorePercent > 0
+        ? interview.finalScorePercent
+        : Math.round((interview.finalScore || 0) * 10),
       confidence: Number(avgConfidence.toFixed(1)),
       communication: Number(avgCommunication.toFixed(1)),
       correctness: Number(avgCorrectness.toFixed(1)),
-      questionWiseScore: interview.questions
+      questionWiseScore: interview.questions.map((q) => {
+        const modernScore = Boolean(q.verdict);
+        const rawScore = Number(q.score) || 0;
+        const scorePercent = modernScore ? rawScore : rawScore * 10;
+        return {
+          ...q.toObject(),
+          answer: q.userAnswer || q.answer || "",
+          userAnswer: q.userAnswer || q.answer || "",
+          category: q.category || "Concepts",
+          score: modernScore ? rawScore / 10 : rawScore,
+          scorePercent,
+          verdict: q.verdict || verdictForScore(scorePercent),
+          correctAnswer: q.correctAnswer || "",
+          feedback: q.feedback || "",
+        };
+      }),
     });
 
   } catch (error) {
     return res.status(500).json({ message: `failed to find currentUser Interview report ${error}` })
   }
 }
+
+
+

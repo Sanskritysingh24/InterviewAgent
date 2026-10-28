@@ -9,7 +9,15 @@ const questionSchema = new mongoose.Schema({
     parentQuestionId: { type: mongoose.Schema.Types.ObjectId, ref: "Question", default: null },
     depth: { type: Number, default: 0 },          // 0 = main, 1 = first follow-up, 2 = second
     order: { type: Number, default: 0 },          // position among main questions
-    category: { type: String, enum: ["theory", "coding", "practical", "scenario"], default: "theory" },
+    category: { type: String, enum: ["Concepts", "Attitude", "Vocabulary", "Style", "Technical", "HR", "Behavioral", "theory", "coding", "practical", "scenario"], default: "Concepts" },
+    answer: { type: String, default: "" },
+    userAnswer: { type: String, default: "" },
+    score: { type: Number, min: 0, max: 100, default: 0 },
+    verdict: { type: String, enum: ["good", "average", "poor"], default: "poor" },
+    feedback: { type: String, default: "" },
+    correctAnswer: { type: String, default: "" },
+    strengths: { type: [String], default: [] },
+    improvements: { type: [String], default: [] },
     difficulty: { type: String, default: "medium" },
     timeLimit: { type: Number, default: 90 },
 }, { timestamps: true });

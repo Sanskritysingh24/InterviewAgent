@@ -10,3 +10,4 @@ const aiCoachingSchema = new mongoose.Schema({
 
 aiCoachingSchema.index({ userId: 1, interviewId: 1 }, { unique: true });
 export default mongoose.model("AICoaching", aiCoachingSchema);
+ 

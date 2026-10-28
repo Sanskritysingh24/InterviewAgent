@@ -1,4 +1,7 @@
 ﻿// ===================== CONFIG =====================
+import { verdictForScore } from "../../shared/scoring.js"
+import { getReferenceQuestions } from "./questionBank.service.js"
+
 export const QUESTION_COUNT = 6          // main questions
 export const MAX_TOTAL_QUESTIONS = 8     // main + follow-ups milake HARD LIMIT
 export const MAX_FOLLOWUPS = 2           // ek hi sawaal ki chain mein max follow-ups
@@ -10,7 +13,17 @@ export const FOLLOWUP_MIN_SCORE = 4
 export const FOLLOWUP_MAX_SCORE = 7
 
 const LEVELS = ["easy", "medium", "hard"]
-const CATEGORIES = ["theory", "coding", "practical", "scenario"]
+export const QUESTION_CATEGORIES = ["Concepts", "Attitude", "Vocabulary", "Style"]
+export const EXPERIENCE_LEVELS = ["fresher", "mid-level", "senior"]
+export const LEGACY_QUESTION_CATEGORIES = ["Technical", "HR", "Behavioral", "theory", "coding", "practical", "scenario"]
+export const ALL_QUESTION_CATEGORIES = [...QUESTION_CATEGORIES, ...LEGACY_QUESTION_CATEGORIES]
+export const normalizeExperienceLevel = (value) => {
+  const normalized = String(value || "fresher").trim().toLowerCase()
+  if (["fresher", "0-1 years", "0-1", "0-2 years - fresher", "0-2 years", "0-2"].includes(normalized)) return "fresher"
+  if (["mid-level", "intermediate", "2-5 years - mid-level", "2-5 years", "2-5"].includes(normalized)) return "mid-level"
+  if (["senior", "experienced", "5+ years - senior", "5+ years", "5+"].includes(normalized)) return "senior"
+  return null
+}
 const TIME_LIMIT = { easy: 60, medium: 90, hard: 120 }
 
 const list = (arr) => (Array.isArray(arr) && arr.length ? arr.join(", ") : "None")
@@ -40,8 +53,9 @@ ${projectQ ? `- ${projectQ} questions about specific named projects in the resum
 export const buildQuestionPrompt = ({
   role, experience, mode, topic, difficulty, companyTrack,
   skills, projects, resumeText, roleKnowledge, companyFocus, avoidQuestions = [],
-  count = QUESTION_COUNT, interviewLevel = "medium",
+  count = QUESTION_COUNT, interviewLevel = "medium", experienceLevel = "fresher",
 }) => {
+  experienceLevel = normalizeExperienceLevel(experienceLevel) || "fresher"
   const hasResume =
     (Array.isArray(skills) && skills.length > 0) ||
     (Array.isArray(projects) && projects.length > 0) ||
@@ -50,6 +64,7 @@ export const buildQuestionPrompt = ({
   const context = [
     `Target Role: ${role}`,
     `Experience Level: ${experience}`,
+    `Selected Experience Band: ${experienceLevel}`,
     `Interview Mode: ${mode}`,
     `Topic Focus: ${topic || "General"}`,
     `Requested Difficulty: ${difficulty || "Intermediate"}`,
@@ -67,6 +82,12 @@ export const buildQuestionPrompt = ({
     mode, count, hasResume, hasProjects: Array.isArray(projects) && projects.length > 0,
     hasSkills: Array.isArray(skills) && skills.length > 0, role,
   })
+  const referenceQuestions = getReferenceQuestions({
+    mode, role, skills, count, excludeQuestions: avoidQuestions,
+  })
+  const referenceBlock = referenceQuestions.length
+    ? referenceQuestions.map((item, index) => `${index + 1}. [Topic: ${item.topic}] ${item.question}`).join("\n")
+    : "No reference questions are available for this mode."
 
   return [
     {
@@ -80,15 +101,21 @@ Generate exactly ${count} MAIN interview questions.
 QUESTION PLAN:
 ${plan}
 
+REFERENCE QUESTIONS:
+${referenceBlock}
+
 Personalization rules:
+- Use the reference questions as the primary source. Rephrase each to fit the person's resume and experience level, following the format rules below. Do not copy verbatim when a resume project or skill fits. Only go outside the references if count exceeds the available questions.
 - Every question must fit the target role and the person's stated experience level. Match complexity to their experience: fundamentals for 0-1 years, practical ownership for 2-4 years, and design trade-offs for 5+ years.
 - In technical interviews, test resume skills technically. In HR interviews, ask behavioral questions about how the person used, learned, or applied those skills.
 - For resume-based technical interviews, ask about specific listed skills and named projects. Ask what the person built, how they used a skill, decisions they made, challenges they solved, and results.
 - Use only resume facts included in the context. Never assume the person used a tool or achieved a result that is not stated.
 - Match the experience level:
-  Fresher or 0-1 years: fundamentals and basic concepts.
-  2-4 years: practical, hands-on work and real problems.
-  5+ years: design decisions, trade-offs, and ownership.
+  fresher (0-2 years): fundamentals and simple examples; reward correct basic reasoning.
+  mid-level (2-5 years): practical application, trade-offs, and independent problem solving.
+  senior (5+ years): deeper reasoning, ownership, edge cases, and stricter standards.
+- Across the set, balance the question categories Concepts, Attitude, Vocabulary, and Style. Use each category at least once when count allows; use the remaining slots to fit the role and interview mode.
+- Return category as one of Concepts, Attitude, Vocabulary, Style. The question wording and interview mode still determine technical, HR, or behavioral subject matter.
 - Only mention skills and projects that actually appear in the resume. Never invent any.
 - Prefer the skills and projects most relevant to the target role. Ignore unrelated ones.
 - Never ask two questions about the same project or the same skill.
@@ -111,7 +138,7 @@ Difficulty requirements:
 Return ONLY valid JSON, no markdown, in this exact format:
 {
   "questions": [
-    { "text": "question here", "category": "theory|coding|practical|scenario", "difficulty": "easy|medium|hard" }
+    { "text": "question here", "category": "Concepts|Attitude|Vocabulary|Style", "difficulty": "easy|medium|hard" }
   ]
 }
 `,
@@ -126,11 +153,11 @@ export const normalizeQuestions = (parsed, count = QUESTION_COUNT, interviewLeve
   return raw
     .filter((q) => typeof q?.text === "string" && q.text.trim())
     .slice(0, count)
-    .map((q) => {
+    .map((q, index) => {
       const difficulty = LEVELS.includes(interviewLevel) ? interviewLevel : "medium"
       return {
         text: q.text.trim(),
-        category: CATEGORIES.includes(q.category) ? q.category : "theory",
+        category: QUESTION_CATEGORIES.includes(q.category) ? q.category : QUESTION_CATEGORIES[index % QUESTION_CATEGORIES.length],
         difficulty,
         timeLimit: TIME_LIMIT[difficulty],
       }
@@ -141,75 +168,32 @@ export const normalizeQuestions = (parsed, count = QUESTION_COUNT, interviewLeve
 export const buildEvaluationPrompt = ({
   role, experience, mainQuestion, thread = [], currentQuestion,
   answer, followUpDepth, maxFollowUps = MAX_FOLLOWUPS, followUpsLeft = 0,
+  experienceLevel = "fresher", category = "Concepts",
 }) => [
   {
     role: "system",
     content: `
-You are a professional human interviewer sitting face to face with the person you are interviewing. You have just heard their answer.
-Do three things: (1) evaluate the answer honestly, (2) give balanced feedback, (3) decide whether a follow-up question is really needed.
-
-PART 1: EVALUATION
-Score these from 0 to 10: technicalAccuracy, confidence, communication, completeness, and problemSolving.
-problemSolving rates how clearly the person breaks down the problem, chooses an approach, and reasons through edge cases.
-Keep finalScore compatible with existing reports: average technicalAccuracy, confidence, communication, and completeness, rounded to the nearest whole number.
-Be realistic. A weak answer gets a low score, a strong and detailed answer gets a high score.
-
-PART 2: FEEDBACK (always give BOTH positive and negative points)
-You are talking DIRECTLY to this person, as in a real conversation, and your words will be spoken aloud to them.
-- Always speak in second person: use "you" and "your".
-- NEVER say "the candidate", "the interviewee", "the user", "he", "she" or "they" when talking about the person.
-  Wrong: "The candidate explained props well but missed how state works."
-  Right: "You explained props well, but you missed how state works."
-- Sound warm, natural and human. Do not sound like a written report.
-- positiveFeedback: one specific thing the person did well, based on what they actually said. Maximum 15 words.
-- improvementFeedback: one specific thing that was wrong, missing, or could be better. Maximum 20 words.
-- Even for a weak answer, find one genuine positive, such as a correct basic idea or an honest attempt. Never invent praise.
-- Even for a strong answer, give one small improvement.
-- Never give only negative feedback.
-- Also give "strengths" and "improvements" as short lists (maximum 2 items each) for the final report.
-
-PART 3: FOLLOW-UP DECISION
-Most answers do NOT need a follow-up. The DEFAULT is needsFollowUp = false.
-You are told followUpDepth (follow-ups already asked on this main question), maxFollowUps, and followUpsLeft (how many follow-ups are still allowed in the WHOLE interview).
-
-Set needsFollowUp = true ONLY when a follow-up is really valuable, meaning ALL of these are true:
-- followUpDepth is less than maxFollowUps AND followUpsLeft is at least 1.
-- The answer is partly correct or vague (roughly a finalScore of 4 to 7), OR the person made an interesting claim about their own project or skill that deserves a closer look.
-- One short question can clearly fill the gap.
-- It is not a repeat of anything already asked.
-Be selective. Save follow-ups for the answers where they truly help, because you only have a few in the whole interview.
-
-Set needsFollowUp = false when ANY of these is true:
-- The answer is already good or complete (roughly a finalScore of 8 or more). Just move on.
-- The person clearly does not know this topic, or gave a very weak answer (roughly a finalScore of 3 or less). Do not keep pushing, just move on.
-- followUpsLeft is 0, or followUpDepth has reached maxFollowUps.
-- The answer is off topic or empty.
-
-Follow-up question rules:
-- Base it on the person's actual words in the latest answer and the conversation so far.
-- ONE sentence of 10 to 25 words, simple and conversational.
-- Go deeper (why, how, example, edge case). Do not repeat the question and do not jump to a new topic.
-- Do not reveal the correct answer.
-- Ask it naturally, as part of the same conversation, by referring to what the person just said. Example: "You mentioned state, so how does React decide when to re-render?"
-- NEVER announce it. Do not use words like "follow-up", "next question", "let me ask", "another question" or "one more question".
-- Speak directly to the person with "you" and "your".
-- If needsFollowUp is false, followUpQuestion must be null.
-
-Return ONLY valid JSON, no markdown, in this exact format:
+You evaluate one interview answer for the stated experience level and question category.
+Score from 0 to 100. Be fair and specific to the role and question.
+Experience level: ${experienceLevel}.
+- fresher (0-2 years): score fundamentals and clear basic reasoning; do not expect senior depth.
+- mid-level (2-5 years): expect practical application and independent choices.
+- senior (5+ years): expect depth, ownership, trade-offs, and edge cases; apply stricter standards.
+Write simple English with short sentences and no jargon. Keep each feedback point to 2-3 lines maximum.
+Give one short, simple feedback sentence. Say what was good and one thing to improve. Avoid labels, jargon, and long explanations.
+The ideal answer must be concise, correct, and suited to the experience level. Do not claim the person said anything absent from their answer.
+Use exactly this category: ${category}.
+Return ONLY valid JSON with exactly these fields and types:
 {
-  "technicalAccuracy": number,
-  "confidence": number,
-  "communication": number,
-  "completeness": number,
-  "problemSolving": number,
-  "finalScore": number,
-  "positiveFeedback": "string",
-  "improvementFeedback": "string",
+  "score": 0,
+  "verdict": "good|average|poor",
+  "category": "${category}",
+  "feedback": "One short, simple sentence of feedback.",
+  "correctAnswer": "concise ideal answer",
   "strengths": ["string"],
-  "improvements": ["string"],
-  "needsFollowUp": boolean,
-  "followUpQuestion": "string or null"
+  "improvements": ["string"]
 }
+score is an integer from 0 to 100. Verdict must match score: good >= 70, average 40-69, poor < 40.
 `,
   },
   {
@@ -217,6 +201,8 @@ Return ONLY valid JSON, no markdown, in this exact format:
     content: `
 Role: ${role}
 Experience: ${experience}
+Experience band: ${experienceLevel}
+Question category: ${category}
 Main Question: ${mainQuestion}
 
 Conversation so far on this question:
@@ -235,38 +221,40 @@ followUpsLeft: ${followUpsLeft}
 ]
 
 // ===================== SAFETY HELPERS (LLM pe bharosa nahi) =====================
-const clamp = (v) => Math.max(0, Math.min(10, Math.round(Number(v) || 0)))
+const clamp = (v) => Math.max(0, Math.min(100, Math.round(Number(v) || 0)))
 const toList = (a) =>
   Array.isArray(a) ? a.map((s) => String(s).trim()).filter(Boolean).slice(0, 2) : []
 
 // Scores ko 0-10 mein clamp karta hai, finalScore khud calculate karta hai,
 // aur guarantee karta hai ki positive + improvement dono feedback hamesha ho.
-export const sanitizeEvaluation = (p = {}) => {
-  const technicalAccuracy = clamp(p.technicalAccuracy)
-  const confidence = clamp(p.confidence)
-  const communication = clamp(p.communication)
-  const completeness = clamp(p.completeness)
-  const problemSolving = p.problemSolving != null && p.problemSolving !== "" && Number.isFinite(Number(p.problemSolving)) ? clamp(p.problemSolving) : null
-  const finalScore = Math.round((technicalAccuracy + confidence + communication + completeness) / 4)
-
+export const sanitizeEvaluation = (p = {}, expectedCategory = "Concepts") => {
+  const score = clamp(p.score)
+  const verdict = verdictForScore(score)
+  const feedback = String(p.feedback || "").trim() ||
+    "You made a good attempt; add one correct detail to make your answer clearer."
+  const strengths = toList(p.strengths)
+  const improvements = toList(p.improvements)
+  const positiveFeedback = strengths[0] || "You made an attempt to answer the question."
+  const improvementFeedback = improvements[0] || "Add one clear detail and a relevant example."
   return {
-    technicalAccuracy,
-    confidence,
-    communication,
-    completeness,
-    problemSolving,
-    finalScore,
-    positiveFeedback:
-      String(p.positiveFeedback || "").trim() || "You made a genuine attempt at this question.",
-    improvementFeedback:
-      String(p.improvementFeedback || "").trim() || "Try adding more detail and a real example next time.",
-    strengths: toList(p.strengths),
-    improvements: toList(p.improvements),
-    needsFollowUp: p.needsFollowUp === true || p.needsFollowUp === "true",
-    followUpQuestion:
-      typeof p.followUpQuestion === "string"
-        ? p.followUpQuestion.replace(/^\s*(follow[\s-]?up( question)?|next question)\s*[:\-]\s*/i, "").trim()
-        : null,
+    score,
+    verdict,
+    category: ALL_QUESTION_CATEGORIES.includes(p.category) ? p.category : expectedCategory,
+    feedback,
+    correctAnswer: String(p.correctAnswer || "").trim() || "Give a direct answer, explain the key idea, and support it with a relevant example.",
+    strengths,
+    improvements,
+    // Legacy compatibility fields used by existing report and follow-up code.
+    finalScore: Math.round(score / 10),
+    technicalAccuracy: Math.round(score / 10),
+    confidence: Math.round(score / 10),
+    communication: Math.round(score / 10),
+    completeness: Math.round(score / 10),
+    problemSolving: null,
+    positiveFeedback,
+    improvementFeedback,
+    needsFollowUp: verdict === "average",
+    followUpQuestion: verdict === "average" ? "Can you give one clear example that shows how you would apply this?" : null,
   }
 }
 

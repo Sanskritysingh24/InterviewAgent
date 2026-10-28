@@ -312,7 +312,10 @@ function Step3Report({ report, source = "history" }) {
               Question Breakdown
             </h3>
             <div className='space-y-6'>
-              {questionWiseScore.map((q, i) => (
+              {questionWiseScore.map((q, i) => {
+                const tone = q.verdict === "good" ? "green" : q.verdict === "average" ? "yellow" : "red";
+                const toneClass = tone === "green" ? "bg-green-500 border-green-600 text-white" : tone === "yellow" ? "bg-yellow-300 border-yellow-500 text-yellow-950" : "bg-red-500 border-red-600 text-white";
+                return (
                 <div key={i} className='bg-gray-50 p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-gray-200'>
 
                   <div className='flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3 mb-4'>
@@ -327,13 +330,13 @@ function Step3Report({ report, source = "history" }) {
                     </div>
 
 
-                    <div className='bg-green-100 text-green-600 px-3 py-1 rounded-full font-bold text-xs sm:text-sm w-fit'>
+                    <div className={`${toneClass} px-3 py-1 rounded-full font-bold text-xs sm:text-sm w-fit`}>
                       {Math.round(q.score || 0)}/10
                     </div>
                   </div>
 
-                  <div className='bg-green-50 border border-green-200 p-4 rounded-lg'>
-                    <p className='text-xs text-green-600 font-semibold mb-1'>
+                  <div className={`${toneClass} border p-4 rounded-lg`}>
+                    <p className='text-xs font-semibold mb-1'>
                       AI Feedback
                     </p>
                     <p className='text-sm text-gray-700 leading-relaxed'>
@@ -343,9 +346,17 @@ function Step3Report({ report, source = "history" }) {
                         : "No feedback available for this question."}
                     </p>
                   </div>
+                  {q.userAnswer || q.answer ? <div className="mt-3 rounded-lg border border-gray-200 bg-white p-4">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">Your answer</p>
+                    <p className="mt-1 whitespace-pre-wrap text-sm text-gray-700">{q.userAnswer || q.answer}</p>
+                  </div> : null}
+                  {q.correctAnswer ? <div className="mt-3 rounded-lg border border-blue-200 bg-blue-50 p-4">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-blue-700">Suggested correct answer</p>
+                    <p className="mt-1 text-sm text-gray-700">{q.correctAnswer}</p>
+                  </div> : null}
 
                 </div>
-              ))}
+              )})}
             </div>
 
           </motion.div>

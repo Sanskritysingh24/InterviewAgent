@@ -115,6 +115,13 @@ function Home() {
                 className='border border-gray-300 px-10 py-3 rounded-full hover:bg-gray-100 transition'>
                 Dashboard
               </motion.button>
+              <motion.button
+                onClick={() => navigate("/cheatsheets")}
+                whileHover={{ opacity: 0.9, scale: 1.03 }}
+                whileTap={{ opacity: 1, scale: 0.98 }}
+                className='border border-green-300 bg-green-50 text-green-800 px-10 py-3 rounded-full hover:bg-green-100 transition'>
+                Cheat Sheets
+              </motion.button>
             </div>
           </div>
 
