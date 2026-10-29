@@ -14,7 +14,7 @@ import Leaderboard from './pages/Leaderboard'
 import Profile from './pages/Profile'
 import CheatSheets from './pages/CheatSheets'
 
-export const ServerUrl  = "http://localhost:8000"
+export const ServerUrl = import.meta.env.VITE_API_URL;
 
 function App() {
 
