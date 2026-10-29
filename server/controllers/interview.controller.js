@@ -4,7 +4,7 @@ import { askAi } from "../services/openRouter.service.js";
 import User from "../models/user.model.js";
 import Interview from "../models/interview.model.js";
 import Role from "../models/role.model.js";
-import CompanyTrack from "../models/companyTrack.model.js";
+import CompanyTrack from "../models/companytrack.model.js";
 import Question from "../models/question.model.js";
 import Response from "../models/response.model.js";
 import Resume from "../models/resume.model.js";
