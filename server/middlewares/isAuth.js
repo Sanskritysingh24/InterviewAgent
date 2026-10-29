@@ -1,4 +1,5 @@
 import jwt from "jsonwebtoken"
+import { clearAuthCookie } from "../config/authCookie.js"
 
 
 const isAuth = async (req,res,next) => {
@@ -11,7 +12,7 @@ const isAuth = async (req,res,next) => {
         const verifyToken = jwt.verify(token , process.env.JWT_SECRET)
         
         if(!verifyToken){
-            res.clearCookie("token", { path: "/", sameSite: "strict", secure: false })
+            clearAuthCookie(res)
             return res.status(401).json({message:"Invalid or expired session"})
         }
         req.userId = verifyToken.userId
@@ -20,7 +21,7 @@ const isAuth = async (req,res,next) => {
    
 
     } catch (error) {
-        res.clearCookie("token", { path: "/", sameSite: "strict", secure: false })
+        clearAuthCookie(res)
         return res.status(401).json({message:"Invalid or expired session"})
     }
     

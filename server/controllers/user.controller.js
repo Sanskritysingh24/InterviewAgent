@@ -1,11 +1,6 @@
 import jwt from "jsonwebtoken";
 import User from "../models/user.model.js";
-
-const clearAuthCookie = (res) => res.clearCookie("token", {
-    path: "/",
-    sameSite: "strict",
-    secure: false,
-});
+import { clearAuthCookie } from "../config/authCookie.js";
 
 export const getCurrentUser = async (req, res) => {
     try {
