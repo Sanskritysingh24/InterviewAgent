@@ -14,7 +14,7 @@ import Leaderboard from './pages/Leaderboard'
 import Profile from './pages/Profile'
 import CheatSheets from './pages/CheatSheets'
 
-export const ServerUrl = import.meta.env.VITE_SERVER_URL || "https://interviewagent-d4jn.onrender.com"
+export const ServerUrl = import.meta.env.VITE_SERVER_URL
 
 function App() {
 
