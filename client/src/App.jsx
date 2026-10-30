@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Auth from "./pages/Auth.jsx";
@@ -14,7 +14,7 @@ import Leaderboard from './pages/Leaderboard'
 import Profile from './pages/Profile'
 import CheatSheets from './pages/CheatSheets'
 
-export const ServerUrl = import.meta.env.VITE_SERVER_URL
+export const ServerUrl = import.meta.env.VITE_SERVER_URL;
 
 function App() {
 
