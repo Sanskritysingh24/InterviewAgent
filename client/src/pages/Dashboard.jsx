@@ -79,7 +79,33 @@ export default function Dashboard() {
       skillGroups.get(skill.name).push(pct(skill.score));
     }));
     const areas = [...metricAreas, ...[...skillGroups].map(([name, values]) => ({ name, value: Math.round(mean(values)), sampleSize: values.length }))].sort((a, b) => b.value - a.value);
-    const strong = areas.filter((i) => i.value >= 75 && i.sampleSize >= 2).slice(0, 5);
+    let strong;
+    if (roleFilter === "All Roles") {
+      // Keep role-specific strengths visible when lower scores in other roles reduce the overall average.
+      const byRoleArea = new Map();
+      filtered.forEach((interview) => {
+        const roleAreas = [
+          ["Technical Knowledge", interview.scores.technical],
+          ["Communication", interview.scores.communication],
+          ["Problem Solving", interview.scores.problemSolving],
+          ["Confidence", interview.scores.confidence],
+          ...(interview.skillScores || []).map((skill) => [skill.name, skill.score]),
+        ];
+        roleAreas.forEach(([name, score]) => {
+          if (!Number.isFinite(score)) return;
+          const key = `${interview.role}::${name}`;
+          if (!byRoleArea.has(key)) byRoleArea.set(key, { name: `${name} - ${interview.role}`, values: [] });
+          byRoleArea.get(key).values.push(pct(score));
+        });
+      });
+      strong = [...byRoleArea.values()]
+        .map(({ name, values }) => ({ name, value: Math.round(mean(values)), sampleSize: values.length }))
+        .filter((area) => area.value >= 75 && area.sampleSize >= 2)
+        .sort((a, b) => b.value - a.value)
+        .slice(0, 5);
+    } else {
+      strong = areas.filter((i) => i.value >= 75 && i.sampleSize >= 2).slice(0, 5);
+    }
     const improve = [...areas].filter((i) => i.value < 70 && i.sampleSize >= 2).sort((a, b) => a.value - b.value).slice(0, 5);
     const insights = [];
     if (chronological.length > 1) {
@@ -156,7 +182,8 @@ function Panel({ title, subtitle, icon: Icon, children }) {
   return <div className="min-w-0 rounded-2xl border border-slate-100 bg-white p-5 shadow-sm shadow-slate-200/40 sm:p-6"><div className="mb-5 flex items-start gap-3"><span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-violet-50 text-violet-700"><Icon size={17} /></span><div><h2 className="font-semibold text-slate-900">{title}</h2>{subtitle && <p className="mt-1 text-xs text-slate-500">{subtitle}</p>}</div></div>{children}</div>;
 }
 function AreaPanel({ title, icon, items, empty, strong = false }) {
-  return <Panel title={title} subtitle="Metric averages use all answers; skills use matching question scores" icon={icon}>{items.length ? <div className="space-y-4">{items.map((item) => <div key={item.name}><div className="mb-2 flex items-center justify-between gap-3 text-sm"><span className="font-medium text-slate-700">{item.name}</span><span className="flex items-center gap-2"><b className="text-slate-800">{item.value}%</b><span className={`rounded-full px-2 py-1 text-[10px] font-semibold ${strong ? "bg-emerald-50 text-emerald-700" : "bg-amber-50 text-amber-700"}`}>{strong ? "Strong" : "Needs Improvement"}</span></span></div><div className="h-2 overflow-hidden rounded-full bg-slate-100"><div className={`h-full rounded-full ${strong ? "bg-gradient-to-r from-violet-400 to-emerald-400" : "bg-gradient-to-r from-pink-300 to-amber-400"}`} style={{ width: `${item.value}%` }} /></div></div>)}</div> : <Empty>{empty}</Empty>}</Panel>;
+  const subtitle = strong ? "Strong scores are grouped by role when All Roles is selected" : "Metric averages use all answers; skills use matching question scores";
+  return <Panel title={title} subtitle={subtitle} icon={icon}>{items.length ? <div className="space-y-4">{items.map((item) => <div key={item.name}><div className="mb-2 flex items-center justify-between gap-3 text-sm"><span className="font-medium text-slate-700">{item.name}</span><span className="flex items-center gap-2"><b className="text-slate-800">{item.value}%</b><span className={`rounded-full px-2 py-1 text-[10px] font-semibold ${strong ? "bg-emerald-50 text-emerald-700" : "bg-amber-50 text-amber-700"}`}>{strong ? "Strong" : "Needs Improvement"}</span></span></div><div className="h-2 overflow-hidden rounded-full bg-slate-100"><div className={`h-full rounded-full ${strong ? "bg-gradient-to-r from-violet-400 to-emerald-400" : "bg-gradient-to-r from-pink-300 to-amber-400"}`} style={{ width: `${item.value}%` }} /></div></div>)}</div> : <Empty>{empty}</Empty>}</Panel>;
 }
 function Compare({ label, item, tone }) {
   return <div className="flex items-center justify-between rounded-2xl border border-slate-100 bg-slate-50/70 p-4"><div><p className="text-sm font-semibold text-slate-700">{label}</p><p className="mt-1 text-xs text-slate-500">{item.role}</p></div><span className={`text-2xl font-bold ${tone === "blue" ? "text-blue-600" : "text-violet-700"}`}>{pct(item.scores.overall)}%</span></div>;
