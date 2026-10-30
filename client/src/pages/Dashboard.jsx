@@ -18,7 +18,10 @@ export default function Dashboard() {
   const [interviews, setInterviews] = useState([]);
   const [persistedGamification, setPersistedGamification] = useState(null);
   const [roleFilter, setRoleFilter] = useState("All Roles");
-  const [period, setPeriod] = useState(30);
+  const [period, setPeriod] = useState(() => {
+    const saved = window.localStorage.getItem("interviewagent.dashboardPeriod");
+    return saved === null ? 30 : Number(saved);
+  });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
@@ -138,7 +141,7 @@ export default function Dashboard() {
         {nav.map(([label, to, Icon]) => <Link key={to} to={to} className={`flex shrink-0 items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium transition ${label === "Dashboard" ? "bg-violet-100 text-violet-800" : "text-slate-600 hover:bg-slate-50"}`}><Icon size={18} />{label}</Link>)}
         <div className="my-1 hidden border-t border-slate-100 lg:block" />
         <Link to="/leaderboard" className="flex shrink-0 items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium text-slate-600 hover:bg-slate-50"><FiAward size={18} />Leaderboard</Link>
-        <button disabled title="Settings are not available yet" className="flex shrink-0 cursor-not-allowed items-center gap-3 rounded-xl px-3 py-3 text-left text-sm font-medium text-slate-400"><FiSettings size={18} />Settings</button>
+        <Link to="/settings" className="flex shrink-0 items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium text-slate-600 hover:bg-slate-50"><FiSettings size={18} />Settings</Link>
       </nav>
       <div className="mt-4 flex items-center gap-3 border-t border-slate-100 pt-4 lg:mt-auto"><span className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-violet-200 to-blue-100 font-semibold text-violet-800">{userData?.name?.slice(0, 1)?.toUpperCase() || <FiUser />}</span><span className="min-w-0"><span className="block truncate text-sm font-semibold">{userData?.name || "Your profile"}</span><span className="block truncate text-xs text-slate-500">{userData?.email || "Interview practice"}</span></span></div>
     </aside>
